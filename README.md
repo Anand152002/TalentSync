@@ -6,19 +6,19 @@ This is a Generative AI-based solution designed to rank resumes based on a job d
 1) Resume and Job Description Input
 
 Users upload a folder of resumes and a job description (as text or file).
-```bash pdf_reader.py ```extracts text for processing.
+```pdf_reader.py ```extracts text for processing.
 
 2) Embedding Generation
 
-```bashembedding_generator.py``` generates vector embeddings for both resumes and job descriptions, capturing semantic content.
+``` embedding_generator.py``` generates vector embeddings for both resumes and job descriptions, capturing semantic content.
 
 3) Metadata Extraction
 
-```bash llm_query.py``` uses an LLM to extract metadata (e.g., years of experience) from resumes, stored in Deep Lake for filtering.
+``` llm_query.py``` uses an LLM to extract metadata (e.g., years of experience) from resumes, stored in Deep Lake for filtering.
 
 4) Vector Similarity Search
 
-```bash deeplake_storage.py``` ranks resumes based on similarity to the job description in vector space.
+```deeplake_storage.py``` ranks resumes based on similarity to the job description in vector space.
 
 5) Efficient Filtering
 
