@@ -1,0 +1,7 @@
+PyMuPDF
+langchain
+fitz
+openai==0.28
+fastapi
+uvicorn
+deeplake
