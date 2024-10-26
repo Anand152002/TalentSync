@@ -36,15 +36,15 @@ Ranked resumes are displayed based on their relevance to the job description.
 https://github.com/Anand152002/Talentsync.git
  ```
 
-2)Install dependencies:
+2) Install dependencies:
  ```bash
 pip install -r requirements.txt
  ```
-3)Set Up Deep Lake and API Keys Configuration:
+3) Set Up Deep Lake and API Keys Configuration:
 
 Configure your Deep Lake account  and storage by adding the credentials in ```config.py```
 
-4)Running the App
+4) Running the App
  ```bash
 
 python main.py
