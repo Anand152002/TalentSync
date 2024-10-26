@@ -27,3 +27,26 @@ Metadata filtering (like years of experience) is applied before similarity searc
 6) Result Presentation
 
 Ranked resumes are displayed based on their relevance to the job description.
+
+## Getting Started
+1) Clone the repository:
+
+ ```bash
+
+https://github.com/Anand152002/Talentsync.git
+ ```
+
+2)Install dependencies:
+ ```bash
+pip install -r requirements.txt
+ ```
+3)Set Up Deep Lake and API Keys Configuration:
+
+Configure your Deep Lake account  and storage by adding the credentials in ```config.py```
+
+4)Running the App
+ ```bash
+
+python main.py
+ ```
+
