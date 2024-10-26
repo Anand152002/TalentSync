@@ -1,1 +1,2 @@
 # Talentsync
+This is a Generative AI-based solution designed to rank resumes based on a job description using vector similarity search. It leverages Deep Lake as the vector database to store resume embeddings along with metadata, such as years of experience, for efficient filtering. Metadata is extracted from resumes using a large language model (LLM), enhancing ranking and filtering based on relevant criteria.
